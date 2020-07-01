@@ -10,12 +10,18 @@ html {
   display: grid;
 }
 
+
+
+
+/* header setup start */
+
 header {
   color: #F8FBFE;
   width: 100%;
   position: fixed;
 }
 
+/* corner logo */
 .logo {
   font-size: 300%;
   margin-top: 9%;
@@ -27,11 +33,13 @@ header {
   color: #F8FBFE;
 }
 
+/* setting up grid so that the logo and the nav icon can be on seperate sides */
 .header-nav {
   grid-template-columns: 1fr 8fr 1fr;
   grid-template-rows: auto;
 }
 
+/* defining drop down menu style */
 .nav-ul {
   position: absolute;
   color: #F8FBFE;
@@ -42,12 +50,14 @@ header {
   display: none;
 }
 
+/* define close icon in the top right corner of the drop down */
 .close-nav-li {
   padding-left: 50%;
   margin-bottom: -9%;
   text-decoration: none;
 }
 
+/* the list items */
 .nav-li {
   margin-top: 6%;
   font-size: larger;
@@ -56,11 +66,13 @@ header {
   animation: pull-over 5s;
 }
 
+/* add color transition */
 .nav-li:hover {
   color: #95C1FF;
   transition: 1s;
 }
 
+/* defining icon in the corner of webpage */
 .fa-bars {
   color: #F8FBFE;
   grid-column: 3/4;
@@ -68,11 +80,85 @@ header {
   cursor: pointer;
 }
 
+/* add color transition */
 .fa-bars:hover {
   color: #95C1FF;
   transition: 1s;
 }
 
+/* animation (not yet working) */
 @keyframes pull-over {
   0% {top: 100px}
 }
+
+/* header setup end */
+
+
+
+
+/* body setup begin */
+
+main {
+  grid-template-columns: 2fr 3fr 2fr;
+  grid-template-rows: 2fr 3fr 2fr;
+  padding-top: 15%;
+}
+
+.main-wrapper {
+  
+  grid-row: 2/3;
+  grid-column: 2/3;
+  text-align: center;
+}
+
+.name {
+  font-size: 500%;
+  text-decoration: none;
+  color: #F8FBFE;
+}
+
+.job {
+  font-size: 150%;
+  color: #F8FBFE;
+}
+
+/* body setup end*/
+
+/* footer setup begin */
+
+footer {
+  
+  grid-template-columns: 4fr 4fr 2fr;
+  margin-top: 10%;
+}
+
+.footer-wrapper {
+ grid-column: 3/4;
+}
+
+.footer-icon {
+  color: #F8FBFE;
+  cursor: pointer;
+  padding-right: 3%;
+}
+
+.fa-linkedin:hover {
+  color: #0077B5;
+  transition: 1s;
+}
+
+.fa-facebook-square:hover {
+  color: #3b5998;
+  transition: 1s;
+}
+
+.fa-github-square:hover {
+  color: #2EA44F;
+  transition: 1s;
+}
+
+.fa-medium:hover {
+  color: #D9D9D9 ;
+  transition: 1s;
+}
+
