@@ -3,17 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../icons/all.css">
+  <link href="https://fonts.googleapis.com/css2?family=Spectral&family=Spectral+SC&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../CSS/reset.css">
+  <link rel="stylesheet" href="../CSS/all-landing.css">
+  <script src="../JS/header-script.js"></script>
   <title>Document</title>
 </head>
 <body>
-  <header>
-
+  <header class="grid-display">
+    <nav class="header-nav grid-display">
+      <a class="logo" href="index.html">UserEX</a>
+      <i class="fas fa-bars fa-3x" onclick="handleOpen()"></i>
+      <ul class="nav-ul" id="menu">
+        <li class="close-nav-li nav-li" id="close-nav" onclick="handleClose()"><i class="fas fa-times-circle fa-2x"></i></li>
+        <li class="nav-li">HOME</li>
+        <li class="nav-li">ABOUT ME</li>
+        <li class="nav-li">MY PROJECTS</li>
+        <li class="nav-li">BLOG</li>
+        <li class="nav-li">RESUME</li>
+        <li class="nav-li">CONTACT ME</li>
+      </ul>
+    </nav>
   </header>
   <main>
 
   </main>
   <footer>
-    
+
   </footer>
 </body>
 </html>
