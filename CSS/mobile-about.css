@@ -1,0 +1,49 @@
+body {
+  background-image: url(../Images/galaxy-wallpaper-1.jpg);
+}
+
+main {
+  justify-items: center;
+  align-items: center;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-areas: 
+  '. was-t .'
+  '. was-c .'
+  '. am-t .'
+  '. am-c .'
+  '. will-t .'
+  '. will-c .';
+}
+
+.was-title {
+ grid-area:was-t ;
+}
+
+.was-content {
+ grid-area:was-c ;
+}
+
+.am-title {
+ grid-area:am-t ;
+}
+
+.am-content {
+ grid-area:am-c ;
+}
+
+.will-title {
+ grid-area:will-t ;
+}
+
+.will-content {
+ grid-area:will-c ;
+}
+
+.title {
+  color: white;
+}
+
+.content {
+  color: white ;
+}

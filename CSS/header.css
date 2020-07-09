@@ -1,0 +1,198 @@
+/* header desktop setup start */
+
+header {
+  color: #F8FBFE;
+  width: 100%;
+  position: fixed;
+}
+
+/* corner logo */
+.logo {
+  font-size: 300%;
+  margin-top: 9%;
+  margin-left: 15%;
+  opacity: .9;
+  font-style: italic;
+  font-family: 'Spectral SC', serif;
+  text-decoration: none;
+  color: #F8FBFE;
+}
+
+
+
+/* defining drop down menu style */
+.nav-ul {
+  position: absolute;
+  color: #F8FBFE;
+  background-color: rgba(0,0,0,0.7);
+  margin-top: -1%;
+  height: 2000%;
+  width: 100vw;
+  display: none;
+}
+
+/* define close icon in the top right corner of the drop down */
+.close-nav-li {
+  padding-left: 50%;
+  margin-bottom: -9%;
+  text-decoration: none;
+}
+
+/* the list items */
+.nav-li {
+  margin-top: 6%;
+  font-size: larger;
+  text-align: center;
+  cursor: pointer;
+  animation: pull-over 5s;
+}
+
+/* add color transition */
+.nav-li:hover {
+  color: #95C1FF;
+  transition: 1s;
+}
+
+/* defining icon in the corner of webpage */
+.fa-bars {
+  color: #F8FBFE;
+  grid-column: 3/4;
+  margin-top: 20%;
+  cursor: pointer;
+}
+
+/* add color transition */
+.fa-bars:hover {
+  color: #95C1FF;
+  transition: 1s;
+}
+
+/* animation (not yet working) */
+/* @keyframes pull-over {
+  0% {top: 100px}
+} */
+
+/* header desktop setup e++nd */
+
+@media only screen and (min-width: 300px) {
+  .header-nav {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  
+  }
+
+  .fa-bars {
+    color: #F8FBFE;
+    grid-column: 2/3;
+    margin-top: 15%;
+    margin-left: 55%;
+    cursor: pointer;
+  }
+
+  .logo {
+    font-size: 200%;
+    margin-top: 5%;
+    margin-left: 15%;
+    opacity: .9;
+    font-style: italic;
+    font-family: 'Spectral SC', serif;
+    text-decoration: none;
+    color: #F8FBFE;
+    grid-column: 1/2;
+  }
+
+  /* defining drop down menu style */
+.nav-ul {
+  position: absolute;
+  color: #F8FBFE;
+  background-color: rgba(0,0,0,0.7);
+  margin-top: -11%;
+  height: 2000%;
+  width: 100vw;
+  display: none;
+}
+
+  /* define close icon in the top right corner of the drop down */
+  .close-nav-li {
+    padding-left: 70%;
+    margin-bottom: -15%;
+    text-decoration: none;
+  }
+
+  /* the list items */
+  .nav-li {
+    margin-top: 20%;
+    font-size: larger;
+    text-align: center;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  .logo {
+    font-size: 300%;
+    margin-top: 9%;
+    margin-left: 15%;
+    opacity: .9;
+    
+  }
+
+  .fa-bars {
+    margin-top: 13%;
+    margin-left: 65%;
+  }
+}
+
+@media only screen and (min-width: 1050px) {
+    .logo {
+    font-size: 300%;
+    margin-top: 9%;
+    margin-left: 15%;
+    opacity: .9;
+    font-style: italic;
+    font-family: 'Spectral SC', serif;
+    text-decoration: none;
+    color: #F8FBFE;
+  }
+
+  .fa-bars {
+    color: #F8FBFE;
+    grid-column: 3/4;
+    margin-right: 50%;
+    margin-left: 0%;
+    margin-top: 30%;
+    cursor: pointer;
+  }
+
+  /* setting up grid so that the logo and the nav icon can be on seperate sides */
+  .header-nav {
+  grid-template-columns: 1fr 8fr 1fr;
+  grid-template-rows: auto;
+  }
+
+  .nav-ul {
+    position: absolute;
+    color: #F8FBFE;
+    background-color: rgba(0,0,0,0.7);
+    padding-top: 10% ;
+    height: 2000%;
+    width: 100vw;
+    display: none;
+  }
+
+  /* define close icon in the top right corner of the drop down */
+  .close-nav-li {
+    padding-left: 50%;
+    margin-bottom: -5%;
+    text-decoration: none;
+  }
+
+  /* the list items */
+  .nav-li {
+    margin-top: 6%;
+    font-size: larger;
+    text-align: center;
+    cursor: pointer;
+    animation: pull-over 5s;
+  }
+}

@@ -1,0 +1,27 @@
+/* main setup begin */
+
+main {
+  grid-template-columns: 2fr 3fr 2fr;
+  grid-template-rows: 2fr 3fr 2fr;
+  
+}
+
+.main-wrapper {
+  
+  grid-row: 2/3;
+  grid-column: 2/3;
+  text-align: center;
+}
+
+.name {
+  font-size: 500%;
+  text-decoration: none;
+  color: #F8FBFE;
+}
+
+.job {
+  font-size: 150%;
+  color: #F8FBFE;
+}
+
+/* main setup end*/

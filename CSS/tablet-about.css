@@ -1,0 +1,32 @@
+main {
+  grid-template-rows: auto;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: 
+  'was-t was-c was-c'
+  'am-c am-c am-t'
+  'will-t will-c will-c';
+}
+
+.was-title {
+ grid-area:was-t ;
+}
+
+.was-content {
+ grid-area:was-c ;
+}
+
+.am-title {
+ grid-area:am-t ;
+}
+
+.am-content {
+ grid-area:am-c ;
+}
+
+.will-title {
+ grid-area:will-t ;
+}
+
+.will-content {
+ grid-area:will-c ;
+}

@@ -1,0 +1,40 @@
+main {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  grid-template-rows: 1fr 2fr 1fr 2fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: 
+  'was-t was-c was-c'
+  '... ... ...'
+  'am-c am-c am-t'
+  '... ... ...'
+  'will-t will-c will-c';
+}
+
+.was-title {
+ grid-area:was-t ;
+}
+
+.was-content {
+ grid-area:was-c ;
+ padding-right: 20%;
+}
+
+.am-title {
+ grid-area:am-t ;
+}
+
+.am-content {
+ grid-area:am-c ;
+ padding-left: 20%;
+}
+
+.will-title {
+ grid-area:will-t ;
+}
+
+.will-content {
+ grid-area:will-c ;
+ padding-right: 20%;
+}
+

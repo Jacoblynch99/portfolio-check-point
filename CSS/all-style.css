@@ -1,0 +1,43 @@
+body {
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  font-family: 'Spectral', serif;
+}
+
+.grid-display {
+  display: grid;
+}
+
+.body-container {
+  grid-template-rows: 1fr 10fr 1fr;
+}
+
+header {
+  grid-row: 1/2;
+}
+
+main {
+  grid-row: 2/3;
+}
+
+footer {
+  grid-row: 3/4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
