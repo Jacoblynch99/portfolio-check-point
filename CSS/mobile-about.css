@@ -1,12 +1,14 @@
 body {
   background-image: url(../Images/galaxy-wallpaper-1.jpg);
+  height: 150vh;
 }
 
 main {
+  margin-top: 15%;
   justify-items: center;
   align-items: center;
-  grid-template-rows: auto;
-  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 1fr 6fr 1fr 6fr 1fr 6fr 2fr;
+  grid-template-columns: 1fr 6fr 1fr;
   grid-template-areas: 
   '. was-t .'
   '. was-c .'
@@ -42,8 +44,11 @@ main {
 
 .title {
   color: white;
+  font-size: larger;
 }
 
 .content {
   color: white ;
+  font-size: medium;
+  text-align: center;
 }

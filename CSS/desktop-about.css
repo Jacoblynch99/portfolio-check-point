@@ -1,4 +1,5 @@
 main {
+  text-align: center;
   padding-top: 10%;
   padding-bottom: 10%;
   grid-template-rows: 1fr 2fr 1fr 2fr 1fr;
