@@ -1,0 +1,219 @@
+body {
+  background-image: url(../Images/Night-Sky.jpg);
+}
+
+main {
+  padding-top: 10%;
+  grid-template-columns: 1fr 6fr 3fr 1fr;
+}
+
+.color-background {
+  background-color: white;
+}
+
+.left-column {
+  grid-column: 2/3;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 2fr 1fr;
+}
+
+.right-column {
+  grid-column: 3/4;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  padding-left: 20%;
+  border-left: 1px solid gray;
+}
+
+/* start of name and picture section */
+
+.name-section {
+  grid-row: 1/2;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 3fr 1fr 1fr;
+}
+
+.name {
+  grid-column: 2/3 ;
+  grid-row: 1/2;
+  align-self: flex-end;
+  font-size: 300%;
+}
+
+.current-description {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  align-self: center;
+  padding-left: 5%;
+}
+
+.residence {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  padding-left: 5%;
+}
+
+.resume-photo {
+  height: 80%;
+  border-radius: 50%;
+  justify-self: center;
+  grid-row: 1/4;
+  margin-top: 5%;
+}
+
+/* start of profile section */
+
+.profile-section {
+  padding-top: 0%;
+  grid-template-columns: 1fr 30fr;
+  grid-template-rows: 1fr 3fr;
+  grid-row: 2/3;
+}
+
+.profile {
+  font-size: 200%;
+  grid-row: 1/2;
+  grid-column: 2/3;
+}
+
+.bio {
+  font-size: 125%;
+  grid-row:2/3;
+  grid-column: 2/3;
+  padding-right: 15%;
+  padding-left: 5%;
+}
+
+/* start of experience section */
+
+.experience-section {
+  padding-top: 2%;
+  grid-template-columns: 1fr 30fr;
+  grid-row: 3/4;
+}
+
+.experience {
+  font-size: 200%;
+  grid-column: 2/3;
+}
+
+.title {
+  font-size: 150%;
+}
+
+.description {
+  font-size: 125%;
+}
+
+.job-1 {
+ grid-column: 2/3;
+ padding-top: 2%;
+ padding-left: 5%;
+}
+
+.job-2 {
+ grid-column: 2/3;
+ padding-top: 2%;
+ padding-left: 5%;
+}
+
+.job-3 {
+ grid-column: 2/3;
+ padding-top: 2%;
+ padding-left: 5%;
+}
+
+.job-4 {
+ grid-column: 2/3;
+ padding-top: 2%;
+ padding-left: 5%;
+}
+
+/* start of education section */
+
+.education-section {
+  grid-row: 4/5;
+  grid-template-columns: 1fr 30fr;
+  grid-template-rows: 1fr 2fr;
+}
+
+.education {
+  grid-column: 2/3;
+  padding-top: 2%;
+  font-size: 200%;
+}
+
+.edu-pos {
+  grid-column: 2/3;
+  padding-left: 5%;
+}
+
+.edu-title {
+  font-size: 150%;
+}
+
+.description {
+  font-size: 125%;
+}
+
+/* start of the details section */
+
+.details {
+  grid-row: 1/2;
+  padding-top: 10%;
+}
+
+.details-title {
+  font-size: 140%;
+}
+
+.pos-details {
+  padding-left: 5%;
+}
+
+/* start of the passions section */
+
+.passions {
+  grid-row: 2/3;
+  padding-top: 10%;
+}
+
+.passions-title {
+  font-size: 140%;
+}
+
+.pos-passions {
+  padding-left: 5%;
+}
+
+/* start of the tools section */
+
+.tools {
+  grid-row: 3/4;
+  padding-top: 10%;
+}
+
+.tools-title {
+  font-size: 140%;
+}
+
+.pos-tools {
+  padding-left: 5%;
+}
+
+/* start of the methods section */
+
+.methods {
+ grid-row: 4/5;
+ padding-top: 10%;
+}
+
+.methods-title {
+  font-size: 140%;
+}
+
+.pos-methods {
+  padding-left: 5%;
+}
+
+/* defining list-style for the entire right side */
+
