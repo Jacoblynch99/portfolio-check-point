@@ -1,0 +1,25 @@
+body {
+  height: 100vh;
+}
+
+.image-gallery {
+  margin-top: 0;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 2%;
+  grid-row-gap: 2%;
+  grid-template-areas: 
+  'img-1 img-2'
+  'img-1 img-2'
+  'img-3 img-4'
+  'img-3 img-4';
+} 
+
+.img-h {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.image-gallery a {
+  height: 20rem;
+}

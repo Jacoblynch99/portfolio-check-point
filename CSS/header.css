@@ -46,6 +46,8 @@ header {
   text-align: center;
   cursor: pointer;
   animation: pull-over 5s;
+  text-decoration: none;
+  color: #F8FBFE;
 }
 
 /* add color transition */

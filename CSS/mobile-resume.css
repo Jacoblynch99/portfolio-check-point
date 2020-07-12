@@ -1,10 +1,12 @@
 body {
   background-image: url(../Images/Night-Sky.jpg);
+  
 }
 
 main {
   padding-top: 10%;
-  grid-template-columns: 1fr 6fr 3fr 1fr;
+  grid-template-columns: 2fr 6fr 2fr 2fr;
+  padding-bottom: 2%;
 }
 
 .color-background {
